@@ -8,16 +8,16 @@ function Gallery() {
     <div>
       <div className="storyHead">
         <h1 >Showroom</h1>
-        <div className=" ">
+        <div className="container-fluid">
             <div className=" col-md g-0">
                 <div className="row g-0">
-                {gallery.map((item,k) => {
+                {gallery.map((item) => {
                     return (
                       <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                       <div class="hovereffect">
 
                       <img  src={item.img} height="250" alt="gallery" loading="lazy"/>
-                    <a href="#v">
+                    
                     <div class="overlay">
                               <h2>{item.name}</h2>
                       <p>
@@ -25,7 +25,7 @@ function Gallery() {
                       </p>
                       
                           </div>
-                    </a>
+                
                          
                   </div>
                   </div>

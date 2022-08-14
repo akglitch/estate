@@ -5,7 +5,7 @@ import Gallery from './component/Gallery';
 
 function App() {
   return (
-    <div className="App">
+    <div >
      <Gallery />
      <Footer />
     </div>
