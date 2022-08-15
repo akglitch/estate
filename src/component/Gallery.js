@@ -6,14 +6,13 @@ import { gallery } from "./Data";
 function Gallery() {
   return(
     <div>
-      <div className="storyHead">
-        <h1 >Showroom</h1>
-        <div className="container-fluid">
+     
+        <div className="">
             <div className=" col-md g-0">
                 <div className="row g-0">
                 {gallery.map((item) => {
                     return (
-                      <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                      <div key={item.mid} className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                       <div class="hovereffect">
 
                       <img  src={item.img} height="250" alt="gallery" loading="lazy"/>
@@ -31,7 +30,7 @@ function Gallery() {
                   </div>
                     )})
                 }
-                 </div>
+                
                
                  </div>
             </div>
