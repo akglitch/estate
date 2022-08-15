@@ -10,12 +10,12 @@ function Gallery() {
         <div className="">
             <div className=" col-md g-0">
                 <div className="row g-0">
-                {gallery.map((item) => {
+                {gallery.map((item,id) => {
                     return (
-                      <div key={item.mid} className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                      <div class="hovereffect">
+                      <div key={item.id == id} className="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
+                      <div  class="hovereffect">
 
-                      <img  src={item.img} height="250" alt="gallery" loading="lazy"/>
+                      <img  src={item.img} height="250" alt="gallery"loading="" />
                     
                     <div class="overlay">
                               <h2>{item.name}</h2>
