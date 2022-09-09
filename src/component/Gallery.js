@@ -1,21 +1,25 @@
 import { gallery } from "./Data";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 
 
 
 function Gallery() {
   return(
-    <div>
-     
-        <div className="">
+  
             <div className=" col-md g-0">
                 <div className="row g-0">
-                {gallery.map((item) => {
+                {
+                  gallery&&
+                gallery.map((item) => {
                     return (   
-                      <div key={item.id} className="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
+                      <div key={item.id} className="col-lg-4 col-md-4 col-sm-6 col-xs-12" >
                       <div  class="hovereffect">
-
-                      <img  src={item.img} height="250" alt="gallery" />
+                      <LazyLoadImage src={item.img}
+        width={600} height={300}
+        alt="Image Alt"
+      />
                     
                     <div class="overlay">
                               <h2>{item.name}</h2>
@@ -35,8 +39,6 @@ function Gallery() {
                  </div>
             </div>
            
-        </div>
-    </div>
     )
      
 }
