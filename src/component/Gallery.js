@@ -1,5 +1,4 @@
 import { gallery } from "./Data";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 
@@ -16,10 +15,8 @@ function Gallery() {
                     return (   
                       <div key={item.id} className="col-lg-4 col-md-4 col-sm-6 col-xs-12" >
                       <div  class="hovereffect">
-                      <LazyLoadImage src={item.img}
-        width={600} height={300}
-        alt="Image Alt"
-      />
+
+                      <img src={item.img} height="250" alt="gallery" />
                     
                     <div class="overlay">
                               <h2>{item.name}</h2>
