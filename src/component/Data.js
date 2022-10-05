@@ -1,8 +1,9 @@
-export const gallery = [
+  export const gallery = [
     {
         "id":1,
         "name":"sofa",
         "img":require("../Images/decor1.jpg"),
+        "description":"hello world welcome come to kumasi",
     },
     {
         "id":2,
