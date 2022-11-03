@@ -7,8 +7,8 @@ import { gallery } from "./Data";
 function Gallery() {
   return(
  
-            <div className=" col-md g-0">
-                <div className="row gap g-0 ">
+            <div className=" col-md g-1">
+                <div className="row gap g-1 ">
                 <div className="storyHead">
     <h1>gallery</h1>
   </div>
