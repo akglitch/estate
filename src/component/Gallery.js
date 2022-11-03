@@ -19,7 +19,7 @@ function Gallery() {
                       <div key={item.id} className="col-lg-4 col-md-4 col-sm-6 col-xs-12" >
                       <div  class="hovereffect">
 
-                      <img src={item.img} height="300" width="250" alt="gallery" />
+                      <img src={item.img} height="300" width="300" alt="gallery" />
                     
                     <div class="overlay">
                               <h2>{item.name}</h2>
