@@ -1,5 +1,10 @@
 
-
+.opening{
+	background-image: url(../src/Images/Background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
 
 
 .storyHead h1{
