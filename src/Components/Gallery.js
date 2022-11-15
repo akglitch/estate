@@ -1,9 +1,11 @@
+import { Container } from "@nextui-org/react";
 import { gallery } from "./Data";
 
 
 function Gallery() {
   return(
- 
+    
+    <Container>
             <div className=" col-md g-1">
                 <div className="row gap g-1 ">
                 <div className="storyHead">
@@ -29,6 +31,8 @@ function Gallery() {
                
                  </div>
             </div>
+
+            </Container>
            
     )
      
