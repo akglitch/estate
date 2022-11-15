@@ -1,4 +1,4 @@
-import { Container } from "@nextui-org/react";
+import { Container,Text } from "@nextui-org/react";
 import { gallery } from "./Data";
 
 
