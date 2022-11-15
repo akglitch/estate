@@ -11,7 +11,7 @@ function Gallery() {
         h1
         size={25}
         css={{
-          textGradient: "45deg, $blue600 -20%, $pink600 50%",
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",paddingTop:"$12",paddingBottom:"$12"
         }}
         weight="bold"
       >
