@@ -6,6 +6,17 @@ function Gallery() {
   return(
     
     <Container>
+
+<Text
+        h1
+        size={25}
+        css={{
+          textGradient: "45deg, $blue600 -20%, $pink600 50%",
+        }}
+        weight="bold"
+      >
+      “A photograph is like a recipe — the memory is the finished dish.” — Carrie Latet
+      </Text>
             <div className=" col-md g-1">
                 <div className="row gap g-1 ">
                 <div className="storyHead">
