@@ -18,13 +18,7 @@ function Gallery() {
 
                       <img loading="lazy" src={item.img} height="300" width="300" alt="gallery" />
                     
-                    <div class="overlay">
-                              <h2>{item.name}</h2>
-                      <p>
-                        <a href="#hh">Link</a>
-                      </p>
-                      
-                          </div>
+                    
                 </div>
                          
                   </div>
