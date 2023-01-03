@@ -1,8 +1,9 @@
 import './App.css';
-import Background from './Components/Background';
+
 
 import Footer from './Components/Footer';
 import Gallery from './Components/Gallery';
+import { Hero } from './Components/Hero';
 import Nav from './Components/Nav';
 
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <div >
    <Nav />
-   <Background />
+   <Hero />
      <Gallery />
      <Footer />
     </div>

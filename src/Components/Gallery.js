@@ -1,4 +1,4 @@
-import { Container,Text } from "@nextui-org/react";
+import { Container } from "@nextui-org/react";
 import { gallery } from "./Data";
 
 
@@ -7,16 +7,7 @@ function Gallery() {
     
     <Container>
 
-<Text
-        h1
-        size={25}
-        css={{
-          textGradient: "45deg, $blue600 -20%, $pink600 50%",paddingTop:"$12",paddingBottom:"$12"
-        }}
-        weight="bold"
-      >
-      “A photograph is like a recipe — the memory is the finished dish.” — Carrie Latet
-      </Text>
+
             <div className=" col-md g-1">
                 <div className="row gap g-1 ">
                 <div className="storyHead">

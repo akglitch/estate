@@ -78,15 +78,15 @@ hr{
 
   /*Footer*/
   .footer h1{
-
-	transform:rotate(90deg);
-
-	transform-origin:left;
-	
-	margin-left:70px;
-	
-	font-weight:bolder;
-	
-	font-size:x-large;
+	margin-top: 3%;
+	margin-bottom: 1%;
+	font-size: medium;
+	justify-content: center;
+	text-align: center;
+	letter-spacing:1rem;
   }
+
+
+
+
 

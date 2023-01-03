@@ -1,5 +1,5 @@
-import { Container, Grid, Row } from "@nextui-org/react";
-import { footerItems } from "./Data";
+import { Container  } from "@nextui-org/react";
+
 
 
 
@@ -8,15 +8,15 @@ function Footer() {
   return (
 
     <Container fluid>
-      <Grid.Container>
-          
-            return (
+    
               <div className="footer">
-                <h1>George mcaninakwa</h1>
-              </div>
-            )
+
+                  <h1>@Kaytee</h1>
         
-      </Grid.Container>
+          
+              </div>
+              
+    
     </Container>
 
   );
