@@ -6,10 +6,7 @@
 	height: 100vh;
 	color: #fff;
 }
-*{
-	background-color: black;
-	color: #FFF;
-}
+
 
 
 
@@ -80,8 +77,16 @@ hr{
 
 
   /*Footer*/
-  .footer{
-	text-align: center;
-	
+  .footer h1{
 
+	transform:rotate(90deg);
+
+	transform-origin:left;
+	
+	margin-left:70px;
+	
+	font-weight:bolder;
+	
+	font-size:x-large;
   }
+

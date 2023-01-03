@@ -40,26 +40,25 @@
         "name":"sofa",
         "img": require("../Images/gallery3.jpg")
     },
-    {
-        "id":9,
-        "name":"sofa",
-        "img": require("../Images/gallery4.jpg")
-    },
-    {
-        "id":10,
-        "name":"sofa",
-        "img": require("../Images/gallery11.jpg")
-    },
-    {
-        "id":11,
-        "name":"sofa",
-        "img": require("../Images/gallery12.jpg")
-    }, 
-    {
-        "id":12,
-        "name":"sofa",
-        "img": require("../Images/gallery13.jpg")
-    },
+  
    
     
+]
+
+
+
+
+export const footerItems = [
+    {
+        "title":"About Kaytee",
+        "description":"Mel Volkman is a fine artist & photographer based on the coast of Maine. About Mel"
+    },
+    {
+        "title":"Discover",
+        "description":"The Journal,Shipping & Details"
+    },
+    {
+        "title":"Newsletter",
+        "description":"Subscribe for exclusive updates and early access to new work."
+    }
 ]
