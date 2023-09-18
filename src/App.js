@@ -13,7 +13,7 @@ import { Container } from '@nextui-org/react';
 function App() {
   return (
     <div >
-      <Container >
+      <Container fluid >
       <Nav />
    <Hero />
      <Gallery />
