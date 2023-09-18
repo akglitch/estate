@@ -3,22 +3,23 @@ import './App.css';
 
 
 import Footer from './Components/Footer';
-import Gallery from './Components/Gallery';
 import { Hero } from './Components/Hero';
 import Nav from './Components/Nav';
-import { Container } from '@nextui-org/react';
+
+const  Gallery = React.lazy(() =>
+import('./Components/Gallery'))
 
 
 
 function App() {
   return (
     <div >
-      <Container fluid >
+     
       <Nav />
    <Hero />
      <Gallery />
      <Footer />
-      </Container>
+    
    
     </div>
   );
