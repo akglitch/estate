@@ -2,6 +2,8 @@
     {
         "id":1,
         "name":"sofa",
+
+
         "img":require("../Images/gallery10.jpg"),
         "description":"hello world welcome come to kumasi",
     },

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
 
 import { AcmeLogo } from "./AcmeLogo";

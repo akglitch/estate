@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Grid,Text } from "@nextui-org/react"
 
 
@@ -21,7 +22,7 @@ export const Hero = () => {
                     <Grid lg={6} xs={6} md={6}>
                         <div className="wrapper">
                             <div className="imag">
-                              
+                              hello world
                             </div>
                         </div>
                     </Grid>
