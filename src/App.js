@@ -4,7 +4,7 @@ import './App.css';
 
 import Footer from './Components/Footer';
 import { Hero } from './Components/Hero';
-import Nav from './Components/Nav';
+import Nav  from './Components/Nav';
 
 const  Gallery = React.lazy(() =>
 import('./Components/Gallery'))
@@ -18,6 +18,7 @@ function App() {
       <Nav />
    <Hero />
      <Gallery />
+    
      <Footer />
     
    

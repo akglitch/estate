@@ -1,37 +1,24 @@
 import React from 'react';
-import { Container, Grid,Text } from "@nextui-org/react"
 
 
 export const Hero = () => {
     return (
         <div>
-            <Container >
-                <Grid.Container>
-                    <Grid lg={6} xs={6} md={6}>
-                        <Text
-                            h1
-                            size={25}
-                            css={{
-                                textGradient: "45deg, $blue600 -20%, $pink600 50%", paddingTop: "$12", paddingBottom: "$12"
-                            }}
-                            weight="bold"
-                        >
-                            “A photograph is like a recipe — the memory is the finished dish.” — Carrie Latet
-                        </Text>
-                    </Grid>
-                    <Grid lg={6} xs={6} md={6}>
-                        <div className="wrapper">
-                            <div className="imag">
-                              hello world
-                            </div>
-                        </div>
-                    </Grid>
-
-                </Grid.Container>
-
-
-            </Container>
-
+<div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <img class="w-100 shadow" src="../Images/gallery.jpg" alt='herobg' />
+          </div>
+          <div class="col-lg-6">
+            <div class="p-5 mt-4">
+                <h1 class="display-4">H1 Heading</h1>
+                <p class="lead">Crow's nest schooner ho scallywag hail-shot gabion salmagundi. Doubloon careen code of conduct lugsail hulk ye long clothes. </p>
+                <a href="#y" class="btn btn-outline-dark">Read More</a>
+              </div>
+          </div>
+      </div>
+      </div>
         </div>
+      
     )
 }
