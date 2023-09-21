@@ -13,7 +13,7 @@ import('./Components/Gallery'))
 
 function App() {
   return (
-    <div >
+    <div className='container-fluid' >
      
       <Nav />
    <Hero />

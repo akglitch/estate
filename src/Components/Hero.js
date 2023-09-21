@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../Images/Background.jpg'
 
 
 export const Hero = () => {
@@ -7,7 +8,7 @@ export const Hero = () => {
 <div class="container my-5">
         <div class="row">
           <div class="col-lg-6">
-            <img class="w-100 shadow" src="../Images/gallery.jpg" alt='herobg' />
+            <img class="w-100 shadow" src={image} alt='herobg' />
           </div>
           <div class="col-lg-6">
             <div class="p-5 mt-4">
