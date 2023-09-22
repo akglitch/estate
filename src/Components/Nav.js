@@ -5,7 +5,7 @@ import {AcmeLogo} from "./AcmeLogo.js";
 
 export default function Nav() {
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar className="background"  maxWidth={"fluid"} shouldHideOnScroll>
       <NavbarBrand>
         <AcmeLogo />
         <p className="font-bold text-inherit">ACME</p>
