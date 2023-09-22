@@ -7,8 +7,11 @@ export const Hero = () => {
         <div>
 <div class="container my-5">
         <div class="row">
-          <div class="col-lg-6">
-            <img class="w-100 h-100 shadow" src={image} alt='herobg' />
+          <div class="col-lg-4">
+            <div className='backgroundpaper'>
+            <img class="w-100 shadow" src={image} alt='herobg' />
+            </div>
+           
           </div>
           <div class="col-lg-6">
             <div class="p-5 mt-4">

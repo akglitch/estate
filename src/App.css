@@ -5,10 +5,21 @@
 	background-position: center;
 	height: 100vh;
 	color: #fff;
+	position: relative;
+}
+
+.logos{
+	font-family: 'Dancing Script', cursive;
+	font-size: larger;
 }
 
 
-
+.backgroundpaper{
+	background-color: #212529;
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+}
 
 hr{
     margin: auto;
