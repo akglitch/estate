@@ -20,7 +20,7 @@ export default function App() {
   ];
 
   return (
-    <div>
+    <div className="background">
     <Navbar  isBlurred={false}  maxWidth={"fluid"}  onMenuOpenChange={setIsMenuOpen}>
     <NavbarContent>
       <NavbarMenuToggle
