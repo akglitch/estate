@@ -17,7 +17,7 @@ export const Hero = () => {
             <div class="p-5 mt-4">
                 <h1 class="display-4  font-sans  ">About Us:</h1>
                 <h3>Your Trusted Real Estate Partner</h3>
-                <p class="lead text-red-800">At Akproperties, we are passionate about helping you achieve your real estate goals. With a team of dedicated professionals, we offer a range of services tailored to meet your unique needs. </p>
+                <p class="lead ">At Akproperties, we are passionate about helping you achieve your real estate goals. With a team of dedicated professionals, we offer a range of services tailored to meet your unique needs. </p>
                 <a href="#y" class="btn btn-outline-dark">Read More</a>
               </div>
           </div>

@@ -20,8 +20,8 @@ function Herotwo() {
 
         <div class="col-lg-6">
             <div class="p-5 mt-4">
-                <h1 class="display-4  font-sans hover:font-serif ">H1 Heading</h1>
-                <p class="lead text-red-800">Crow's nest schooner ho scallywag hail-shot gabion salmagundi. Doubloon careen code of conduct lugsail hulk ye long clothes. </p>
+                <h3 class="display-4  font-sans ">Search for Your Dream Home</h3>
+                <p class="lead ">Start your search for your dream home by browsing through our extensive listings. With a wide range of properties to choose from, you're sure to find the one that suits your needs. </p>
                 <a href="#y" class="btn btn-outline-dark">Read More</a>
               </div>
           </div>
@@ -55,7 +55,7 @@ function Herotwo() {
 
       <div class="box">
     <div class="container">
-    <h1 className='text-center'>Comprehensive Real Estate Services</h1>
+    <h1 className='text-center font-sans'>Comprehensive Real Estate Services</h1>
     <p className='text-center'>At Akproperties, we offer a wide range of services to meet all your real estate needs.</p>
      	<div class="row">
 			 
