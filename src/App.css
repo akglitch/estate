@@ -13,7 +13,7 @@
 background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
-	height: 70vh;
+	height: 50vh;
 	color: #fff;
 	
 }
@@ -53,6 +53,8 @@ hr{
   .pngicons{
 	height:20% ;
 	width: 20%;
+	text-align: center;
+	justify-content: center;
   }
 
 /*--------gallery-hover------*/
