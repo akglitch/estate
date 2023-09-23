@@ -1,7 +1,7 @@
 
 import React from 'react';
-import image from '../Images/gallery13.jpg';
-import imag from '../Images/gallery10.jpg'
+import image from '../Images/jpeg-optimizer_gallery2.webp';
+import imag from '../Images/gallery6.jpg'
 
 function Herotwo() {
     return ( 
@@ -45,6 +45,77 @@ function Herotwo() {
          
       </div>
       </div>
+
+
+
+
+      <div class="box">
+    <div class="container">
+     	<div class="row">
+			 
+			    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+                        
+                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                        
+						<div class="title">
+							<h4>Instagram</h4>
+						</div>
+                        
+						<div class="text">
+							<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						</div>
+                        
+						<a href="#g">Learn More</a>
+                        
+					 </div>
+				</div>	 
+				
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+					    
+					    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                    
+						<div class="title">
+							<h4>Twitter</h4>
+						</div>
+                        
+						<div class="text">
+							<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						</div>
+                        
+						<a href="#h">Learn More</a>
+                        
+					 </div>
+				</div>	 
+				
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+               
+					<div class="box-part text-center">
+                        
+                        <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                        
+						<div class="title">
+							<h4>Facebook</h4>
+						</div>
+                        
+						<div class="text">
+							<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+						</div>
+                        
+						<a href="#h">Learn More</a>
+                        
+					 </div>
+				</div>	 
+				
+				
+		
+			
+    </div>
+</div>
+</div>
         </div>
      );
 }

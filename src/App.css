@@ -1,11 +1,21 @@
 
 .background{
-	background-image: url(../src/Images/Background.jpg);
+	background-image: url(../src/Images/background.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
 	color: #fff;
-	position: relative;
+
+}
+
+.hero3background{
+	background-image: url(../src/Images/gallery3.jpg);
+
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	color: #fff;
+	
 }
 
 .logos{
@@ -16,7 +26,7 @@
 
 .backgroundpaper{
 	background-color: #212529;
-	height: 70vh;
+	height: 50vh;
 	display: flex;
 	flex-direction: row;
 }
@@ -27,20 +37,7 @@ hr{
     border: 3.5px solid #fff;
 }
 
-.storyHead h1{
 
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-transform: uppercase;
-    border-bottom: 1px solid gray;
-    font-weight: 200;
-    padding-left: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    font-size: 25px;
-	border-bottom: 2%;
-}
- 
 
 
 /*--------gallery-hover------*/
@@ -184,3 +181,32 @@ hr{
 
 
 
+  /* ==========================================
+	  HERO2   SERVICES
+	========================================== */
+
+	span{
+		font-size:15px;
+	}
+	a{
+	  text-decoration:none; 
+	  color: #0062cc;
+	 
+	}
+	.box{
+		padding:60px 0px;
+	}
+	
+	.box-part{
+	
+			border-radius:0;
+		padding:60px 10px;
+		margin:30px 0px;
+	}
+	.text{
+		margin:20px 0px;
+	}
+	
+	.fa{
+		 color:#4183D7;
+	}

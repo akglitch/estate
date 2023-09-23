@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../Images/Background.jpg'
+import image from '../Images/background.jpg'
 
 
 export const Hero = () => {
