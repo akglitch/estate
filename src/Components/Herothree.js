@@ -1,3 +1,7 @@
+import React from "react";
+
+
+
 function Herothree() {
     return ( 
         <div className="hero3background">
