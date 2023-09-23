@@ -11,7 +11,7 @@ function Gallery() {
             <div className=" col-md g-1">
                 <div className="row gap g-1 ">
                 <div className="">
-                <h1 class="display-4    logos">Listings</h1>
+                <h1 class="display-6  ">Listing</h1>
   </div>
                 {
                   gallery&&

@@ -2,8 +2,6 @@
     {
         "id":1,
         "name":"34 ADALIA AVENUETAMPA, FL 33606",
-
-
         "img":require("../Images/gallery6.jpg"),
         "description":"hello world welcome come to kumasi",
     },

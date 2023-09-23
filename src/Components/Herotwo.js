@@ -1,7 +1,11 @@
 
 import React from 'react';
 import image from '../Images/jpeg-optimizer_gallery2.webp';
-import imag from '../Images/gallery6.jpg'
+import imag from '../Images/gallery6.jpg';
+import png1 from '../Images/real-estate.png';
+import png2 from '../Images/skyscaper.png';
+import png3 from '../Images/business-and-finance.png'; 
+
 
 function Herotwo() {
     return ( 
@@ -57,10 +61,10 @@ function Herotwo() {
                
 					<div class="box-part text-center">
                         
-                        <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                  <img className='pngicons' src={png1} alt="pngicon"/>
                         
 						<div class="title">
-							<h4>Instagram</h4>
+							<h4>Residential Developments</h4>
 						</div>
                         
 						<div class="text">
@@ -76,10 +80,10 @@ function Herotwo() {
                
 					<div class="box-part text-center">
 					    
-					    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+          <img className='pngicons' src={png2} alt="pngicon"/>
                     
 						<div class="title">
-							<h4>Twitter</h4>
+							<h4>Commercial Developments</h4>
 						</div>
                         
 						<div class="text">
@@ -95,10 +99,10 @@ function Herotwo() {
                
 					<div class="box-part text-center">
                         
-                        <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+          <img className='pngicons' src={png3} alt="pngicon"/>
                         
 						<div class="title">
-							<h4>Facebook</h4>
+							<h4>Currently Selling</h4>
 						</div>
                         
 						<div class="text">

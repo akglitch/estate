@@ -10,13 +10,19 @@
 
 .hero3background{
 	background-image: url(../src/Images/gallery3.jpg);
-
+background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 	height: 70vh;
 	color: #fff;
 	
 }
+
+.hero3{
+	padding-top: 10%;
+}
+
+
 
 .logos{
 	font-family: 'Dancing Script', cursive;
@@ -39,6 +45,15 @@ hr{
 
 
 
+
+  /*Footer*/
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+  .pngicons{
+	height:20% ;
+	width: 20%;
+  }
 
 /*--------gallery-hover------*/
 
