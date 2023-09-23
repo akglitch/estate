@@ -11,7 +11,7 @@ function Herotwo() {
     return ( 
         <div>
           <div className=' container mt-5 mb-5'>
-          <h1 class="display-4  font-sans8 mt-  text-center logos">Feel the power of luxury</h1>
+          <h1 class="display-6  font-sans8 mt-  text-center h2conclusion">Feel the power of luxury</h1>
           <hr></hr>
           </div>
          
@@ -20,7 +20,7 @@ function Herotwo() {
 
         <div class="col-lg-6">
             <div class="p-5 mt-4">
-                <h1 class="display-4  font-sans hover:font-serif logos">H1 Heading</h1>
+                <h1 class="display-4  font-sans hover:font-serif ">H1 Heading</h1>
                 <p class="lead text-red-800">Crow's nest schooner ho scallywag hail-shot gabion salmagundi. Doubloon careen code of conduct lugsail hulk ye long clothes. </p>
                 <a href="#y" class="btn btn-outline-dark">Read More</a>
               </div>

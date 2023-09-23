@@ -23,7 +23,7 @@ export default function App() {
     
 
     
-    <Navbar  isBlurred={false}    maxWidth={"fluid"}  onMenuOpenChange={setIsMenuOpen}>
+    <Navbar  maxWidth="xl"  onMenuOpenChange={setIsMenuOpen}>
     <NavbarContent>
       <NavbarMenuToggle
         aria-label={isMenuOpen ? "Close menu" : "Open menu"}
