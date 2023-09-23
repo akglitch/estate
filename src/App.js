@@ -9,6 +9,7 @@ import Nav  from './Components/Nav';
 import Herotwo from './Components/Herotwo';
 import Herothree from './Components/Herothree';
 import Team from './Components/Team';
+import Testimonials from './Components/Testimonials';
 
 const  Gallery = React.lazy(() =>
 import('./Components/Gallery'))
@@ -26,7 +27,7 @@ function App() {
    <Herothree />
    <Team />
      <Gallery />
-    
+    <Testimonials />
      <Footer />
     
    

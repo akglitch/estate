@@ -55,58 +55,67 @@ function Herotwo() {
 
       <div class="box">
     <div class="container">
+    <h1 className='text-center'>Comprehensive Real Estate Services</h1>
+    <p className='text-center'>At Akproperties, we offer a wide range of services to meet all your real estate needs.</p>
      	<div class="row">
 			 
-			    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			   
+				
+				 
+				
+				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                
 					<div class="box-part text-center">
                         
-                  <img className='pngicons' src={png1} alt="pngicon"/>
+          <img className='pngicons' src={png1} alt="pngicon"/>
                         
 						<div class="title">
-							<h4>Residential Developments</h4>
+							<h4>Buying a Home</h4>
 						</div>
                         
 						<div class="text">
-							<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+							<span>We'll help you find the perfect home, negotiate the best deal, and guide you through the entire buying process.</span>
 						</div>
                         
-						<a href="#g">Learn More</a>
+						<a href="#h">Learn More</a>
                         
 					 </div>
 				</div>	 
-				
-				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                
 					<div class="box-part text-center">
 					    
           <img className='pngicons' src={png2} alt="pngicon"/>
                     
 						<div class="title">
-							<h4>Commercial Developments</h4>
+							<h4>Selling a Home</h4>
 						</div>
                         
 						<div class="text">
-							<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+							<span>Our expert marketing strategies will ensure your property gets maximum exposure and the best possible sale price.</span>
 						</div>
                         
 						<a href="#h">Learn More</a>
                         
 					 </div>
 				</div>	 
-				
-				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+        
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                
 					<div class="box-part text-center">
-                        
+					    
           <img className='pngicons' src={png3} alt="pngicon"/>
-                        
+                    
 						<div class="title">
-							<h4>Currently Selling</h4>
+							<h4>Property Management</h4>
 						</div>
                         
 						<div class="text">
-							<span>Lorem ipsum dolor sit amet, id quo eruditi eloquentiam. Assum decore te sed. Elitr scripta ocurreret qui ad.</span>
+							<span>Let us handle the day-to-day responsibilities of property management, so you can enjoy passive income.</span>
 						</div>
                         
 						<a href="#h">Learn More</a>
@@ -115,6 +124,10 @@ function Herotwo() {
 				</div>	 
 				
 				
+      
+     
+
+
 		
 			
     </div>

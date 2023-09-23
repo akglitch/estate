@@ -11,7 +11,8 @@ function Gallery() {
             <div className=" col-md g-1">
                 <div className="row gap g-1 ">
                 <div className="">
-                <h1 class="display-6  ">Listing</h1>
+                <h1 class="display-6 text-center ">Featured Properties</h1>
+                <p className='text-center'>Explore some of our top listings, handpicked for their value, location, and potential</p>
   </div>
                 {
                   gallery&&
