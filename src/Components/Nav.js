@@ -7,10 +7,10 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
+    "Home",
+    "About",
+    "Listings",
+    "Contact",
     
   ];
 
