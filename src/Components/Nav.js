@@ -15,21 +15,16 @@ export default function App() {
   ];
 
   return (
-    <Navbar className="m-0  mx-0 p-0 px-0" maxWidth="xl" onMenuOpenChange={setIsMenuOpen}>
-      <NavbarContent>
+    <Navbar      maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
+      <NavbarContent   >
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden  m-0 mx-0 p-0 px-0"
-          css={{
-           mx:0,
-           px : "0"
-           
-          }
-          }
+          className="sm:hidden m-0 p-0 "
+        
         />
-        <NavbarBrand className="m-0 mx-0">
+        <NavbarBrand  className="m-0 mx-0">
           <AcmeLogo />
-          <p className="logos font-bold m-0 text-inherit">AK properties</p>
+          <p className="logos font-bold m-0 p-0 text-inherit">AK properties</p>
         </NavbarBrand>
       </NavbarContent>
 
