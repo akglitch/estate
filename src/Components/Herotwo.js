@@ -65,12 +65,12 @@ function Herotwo() {
 				
 				 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                
-					<div class="box-part text-center">
+					<div class="box-part">
                         
-          <img className='pngicons' src={png1} alt="pngicon"/>
+          <img className='pngicons text-center' src={png1} alt="pngicon"/>
                         
 						<div class="title">
-							<h4>Buying a Home</h4>
+							<h4 className='text-left'>Buying a Home</h4>
 						</div>
                         
 						<div class="text">
@@ -85,9 +85,9 @@ function Herotwo() {
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                
-					<div class="box-part text-center">
+					<div class="box-part ">
 					    
-          <img className='pngicons' src={png2} alt="pngicon"/>
+          <img className='pngicons text-center' src={png2} alt="pngicon"/>
                     
 						<div class="title">
 							<h4>Selling a Home</h4>
@@ -106,9 +106,9 @@ function Herotwo() {
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                
-					<div class="box-part text-center">
+					<div class="box-part ">
 					    
-          <img className='pngicons' src={png3} alt="pngicon"/>
+          <img className='pngicons text-center' src={png3} alt="pngicon"/>
                     
 						<div class="title">
 							<h4>Property Management</h4>

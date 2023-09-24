@@ -15,19 +15,19 @@ export default function App() {
   ];
 
   return (
-    <Navbar maxWidth="xl" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar className="m-0 " maxWidth="xl" onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="sm:hidden m-0"
         />
-        <NavbarBrand>
+        <NavbarBrand className="m-0">
           <AcmeLogo />
-          <p className="logos font-bold text-inherit">AK properties</p>
+          <p className="logos font-bold m-0 text-inherit">AK properties</p>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden m-0 sm:flex gap-4" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#f" to="/">
             Home
