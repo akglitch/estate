@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {NextUIProvider} from '@nextui-org/react'
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <NextUIProvider>
-      <App />
+   
+    <App />
+  
     </NextUIProvider>
   </React.StrictMode>
 );
