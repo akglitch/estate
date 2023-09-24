@@ -19,7 +19,13 @@ export default function App() {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden m-0 mx-0 p-0 px-0"
+          className="sm:hidden  m-0 mx-0 p-0 px-0"
+          css={{
+           mx:0,
+           px : "0"
+           
+          }
+          }
         />
         <NavbarBrand className="m-0 mx-0">
           <AcmeLogo />
