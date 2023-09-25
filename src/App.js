@@ -16,7 +16,7 @@ import Home from './Components/Home';
 function App() {
   return (
     <Router>
-      <div >
+      <div className='container-fluid'>
         <Nav />
         
         <Routes>
