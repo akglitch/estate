@@ -30,7 +30,7 @@ export default function App() {
 
       <NavbarContent className="hidden m-0 sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" aria-current="page" to="/Home">
+          <Link color="foreground" aria-current="page" to="/">
             Home
           </Link>
         </NavbarItem>
