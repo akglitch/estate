@@ -1,4 +1,4 @@
-  export const gallery = [
+export const listing = [
     {
         "id":1,
         "name":"34 ADALIA AVENUETAMPA, FL 33606",

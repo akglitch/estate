@@ -1,4 +1,4 @@
-import { gallery } from "./Data";
+import { listing } from "./ListingData";
 
 
 
@@ -11,8 +11,8 @@ return (
   <p className='text-center'>Explore some of our top listings, handpicked for their value, location, and potential</p>
 </div>
   {
-    gallery&&
-  gallery.map((item) => {
+    listing&&
+  listing.map((item) => {
       return (   
         <div key={item.id} className="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
         <div  class="hovereffect">

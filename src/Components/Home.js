@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hero } from './Hero';
+import  Hero  from './Hero';
 import Herotwo from './Herotwo';
 import Herothree from './Herothree';
 import Team from './Team';
