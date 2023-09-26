@@ -7,11 +7,16 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    { label: "Home", path: "/" }, // Use the root path for "Home"
+    { label: "Home", path: "/" },
     { label: "About", path: "/about" },
     { label: "Listings", path: "/listings" },
     { label: "Contact", path: "/contact" },
   ];
+
+  const linkStyle = {
+    textDecoration: "none", // Remove default underline
+    color: "var(--geist-foreground)", // Set the text color for normal state
+  };
 
   return (
     <Navbar maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
@@ -30,7 +35,8 @@ export default function App() {
         {menuItems.map((item, index) => (
           <NavbarItem key={`${item.path}-${index}`}>
             <Link
-              color="foreground"
+              style={linkStyle} // Apply custom styles
+              className="hover:text-primary hover:underline"
               to={item.path}
             >
               {item.label}
@@ -43,10 +49,9 @@ export default function App() {
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item.path}-${index}`}>
             <Link
-              color={
-                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-              }
-              className="w-full"
+              className={`w-full ${
+                index === 2 ? "text-primary" : index === menuItems.length - 1 ? "text-danger" : "text-foreground"
+              } hover:text-white`}
               to={item.path}
               size="lg"
             >

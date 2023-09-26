@@ -4,10 +4,6 @@ import { gallery } from "./Data";
 
 function Gallery() {
   return(
-    
-  
-
-
             <div className=" col-md g-1">
                 <div className="row gap g-1 ">
                 <div className="">
