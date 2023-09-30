@@ -20,19 +20,26 @@ export default function App() {
 
   return (
     <div className="background">
-    <Navbar shouldHideOnScroll  maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
+      
+<div className='text-center background-text container ml-5 mr-5 mt-2 mb-5'>
+          <h1 class=" font-sans text-2xl mt-7  text-center ">Welcome to Your Dream Home</h1>
+          <p>At AKproperties, we understand that finding the perfect home is more than just a transaction; it's about finding a place where memories are created, families grow, and dreams come to life. With our expertise and commitment to excellence, we're here to help you turn your real estate dreams into reality</p>
+          <a href="#y" class="btn btn-outline-primary">Learn more</a>
+          <p className="text-center"></p>
+          </div>
+    <Navbar isBordered isBlurred={false} shouldHideOnScroll text-black maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden m-0 p-0 "
         />
-        <NavbarBrand className="m-0 mx-0">
+        <NavbarBrand className=" text-black m-0 mx-0">
           <AcmeLogo />
           <p className="logos  m-0 p-0 text-inherit">AKproperties</p>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden m-0 sm:flex gap-4" justify="center">
+      <NavbarContent className="text-black hidden m-0 sm:flex gap-4" justify="center">
         {menuItems.map((item, index) => (
           <NavbarItem key={`${item.path}-${index}`}>
             <Link

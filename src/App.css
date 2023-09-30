@@ -1,6 +1,6 @@
 
 .background{
-	background-image: url(../src/Images/gallery2.jpg);
+	background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)), url(../src/Images/gallery2.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -8,7 +8,13 @@
 
 }
 
+.background-text{
+	right: 10%;
+	top: 40%;
+	bottom:50%;
+	position:absolute;
 
+}
 
 
 .h2conclusion{
