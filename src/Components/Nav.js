@@ -3,6 +3,7 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navba
 import { AcmeLogo } from "./AcmeLogo.js";
 import { Link } from "react-router-dom";
 
+
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -19,23 +20,15 @@ export default function App() {
   };
 
   return (
-    <div className="background">
-      
-<div className=' background-text container-fluid mt-2 mb-5'>
-          <h1 class=" font-sans text-2xl mt-7  ">Welcome to Your Dream Home</h1>  
-                 <p>
-At AKproperties, we understand that a home is where memories are born and dreams take flight.  <br></br> With our expertise and commitment, we make your real estate dreams a reality.</p>
-          <a href="#y" class="btn btn-outline-primary">Learn more</a>
-          <p className="text-center"></p>
-          </div>
+
     <Navbar isBordered isBlurred={false} shouldHideOnScroll text-black maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className=" text-black sm:hidden m-0 p-0 "
+          className=" text-black  sm:hidden m-0 p-0 "
         />
         <NavbarBrand className=" text-black m-0 mx-0">
-          <AcmeLogo className="text-black" />
+          <AcmeLogo className="text-black mr-3.5" />
           <p className="logos  m-0 p-0 text-inherit">AKproperties</p>
         </NavbarBrand>
       </NavbarContent>
@@ -70,6 +63,6 @@ At AKproperties, we understand that a home is where memories are born and dreams
         ))}
       </NavbarMenu>
     </Navbar>
-    </div>
+
   );
 }

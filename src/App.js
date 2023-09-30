@@ -11,6 +11,7 @@ import About from './Components/About';
 import Listings from './Components/Listings';
 import Contact from './Components/Contact';
 import Home from './Components/Home';
+import Header from './Components/Header';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <Router>
       <div className='container-fluid'>
         <Nav />
-        
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
