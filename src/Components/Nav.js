@@ -27,7 +27,7 @@ export default function App() {
         />
         <NavbarBrand className="m-0 mx-0">
           <AcmeLogo />
-          <p className="logos font-bold m-0 p-0 text-inherit">AK properties</p>
+          <p className="logos  m-0 p-0 text-inherit">AKproperties</p>
         </NavbarBrand>
       </NavbarContent>
 
