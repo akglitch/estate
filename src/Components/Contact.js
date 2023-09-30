@@ -13,16 +13,16 @@ const Contact = () => {
             </p>
             <div className="mt-6">
               <div className="flex items-center mb-2">
-                <img src="/path/to/phone-icon.png" alt="Phone Icon" className="w-6 h-6 mr-2" />
-                <span>Phone: +1 (123) 456-7890</span>
+              <i className="fa fa-phone-square mr-3" aria-hidden="true"></i>
+                <span>Phone: +233 209742331</span>
               </div>
               <div className="flex items-center mb-2">
-                <img src="/path/to/email-icon.png" alt="Email Icon" className="w-6 h-6 mr-2" />
-                <span>Email: info@yourrealestate.com</span>
+              <i className="fa fa-envelope mr-3" aria-hidden="true"></i>
+                <span>Email: ntirianinakwa@gmail.com</span>
               </div>
               <div className="flex items-center">
-                <img src="/path/to/location-icon.png" alt="Location Icon" className="w-6 h-6 mr-2" />
-                <span>123 Main Street, City, State, Zip</span>
+              <i className="fa fa-location-arrow mr-3" aria-hidden="true"></i>
+                <span>amoah street kumasi, ahodwo</span>
               </div>
             </div>
           </div>
