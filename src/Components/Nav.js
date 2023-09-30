@@ -22,9 +22,9 @@ export default function App() {
     <div className="background">
       
 <div className=' background-text container-fluid mt-2 mb-5'>
-          <h1 class=" font-sans text-2xl mt-7  ">Welcome to Your Dream Home</h1>
-          <p>
-At AKproperties, we understand that a home is where memories are born and dreams take flight. With our expertise and commitment, we make your real estate dreams a reality.</p>
+          <h1 class=" font-sans text-2xl mt-7  ">Welcome to Your Dream Home</h1>  
+                 <p>
+At AKproperties, we understand that a home is where memories are born and dreams take flight.  <br></br> With our expertise and commitment, we make your real estate dreams a reality.</p>
           <a href="#y" class="btn btn-outline-primary">Learn more</a>
           <p className="text-center"></p>
           </div>
@@ -32,7 +32,7 @@ At AKproperties, we understand that a home is where memories are born and dreams
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden m-0 p-0 "
+          className=" text-black sm:hidden m-0 p-0 "
         />
         <NavbarBrand className=" text-black m-0 mx-0">
           <AcmeLogo className="text-black" />
