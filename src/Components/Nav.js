@@ -21,7 +21,7 @@ export default function App() {
   return (
     <div className="background">
       
-<div className=' background-text container mt-2 mb-5'>
+<div className=' background-text container-fluid mt-2 mb-5'>
           <h1 class=" font-sans text-2xl mt-7  ">Welcome to Your Dream Home</h1>
           <p>At AKproperties, we understand that finding the perfect home is more than just a transaction; it's about finding a place where memories are created, <br></br>families grow, and dreams come to life. With our expertise and commitment to excellence, we're here to help you turn your real estate dreams into reality</p>
           <a href="#y" class="btn btn-outline-primary">Learn more</a>
