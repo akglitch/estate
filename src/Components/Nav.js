@@ -19,7 +19,8 @@ export default function App() {
   };
 
   return (
-    <Navbar maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
+    <div className="background">
+    <Navbar shouldHideOnScroll  maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -61,5 +62,6 @@ export default function App() {
         ))}
       </NavbarMenu>
     </Navbar>
+    </div>
   );
 }
