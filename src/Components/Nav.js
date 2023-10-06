@@ -19,7 +19,7 @@ export default function App() {
   ];
 
   return (
-    <Navbar className="px-0 py-0" maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar className="px-0 " maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}

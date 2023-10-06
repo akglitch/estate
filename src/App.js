@@ -13,7 +13,7 @@ import Home from './Components/Home'
 function App() {
   return (
    
-      <div className='container-fluid px-0'>
+      <div className='container '>
         <Nav />
         <Header />
         <Home />
