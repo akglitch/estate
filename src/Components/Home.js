@@ -5,6 +5,7 @@ import Herothree from './Herothree';
 import Team from './Team';
 import Testimonials from './Testimonials';
 import Gallery from './Gallery'; // Import Gallery component
+import Contact from './Contact';
 
   function Home() {
     return ( 
@@ -15,6 +16,7 @@ import Gallery from './Gallery'; // Import Gallery component
         <Team />
         <Gallery />
         <Testimonials />
+        <Contact />
         </div>
      );
   }

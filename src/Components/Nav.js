@@ -1,68 +1,79 @@
 import React from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
-import { AcmeLogo } from "./AcmeLogo.js";
-import { Link } from "react-router-dom";
-
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu,NavbarMenuItem, Link, Button} from "@nextui-org/react";
+import {AcmeLogo} from "./AcmeLogo.js";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    { label: "Home", path: "/" },
-    { label: "About", path: "/about" },
-    { label: "Listings", path: "/listings" },
-    { label: "Contact", path: "/contact" },
+    "Profile",
+    "Dashboard",
+    "Activity",
+    "Analytics",
+    "System",
+    "Deployments",
+    "My Settings",
+    "Team Settings",
+    "Help & Feedback",
+    "Log Out",
   ];
 
-  const linkStyle = {
-    textDecoration: "none", // Remove default underline
-    color: "var(--geist-foreground)", // Set the text color for normal state
-  };
-
   return (
-
-    <Navbar isBordered isBlurred={false} shouldHideOnScroll text-black maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
+    <Navbar className="px-0 py-0" maxWidth="full" onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className=" text-black  sm:hidden m-0 p-0 "
+          className="sm:hidden"
         />
-        <NavbarBrand className=" text-black m-0 mx-0">
-          <AcmeLogo className="text-black mr-3.5" />
-          <p className="logos  m-0 p-0 text-inherit">AKproperties</p>
+        <NavbarBrand>
+          <AcmeLogo />
+          <p className="font-bold text-inherit m-0 p-0 logos px-0">Akproperties</p>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="text-black hidden m-0 sm:flex gap-4" justify="center">
-        {menuItems.map((item, index) => (
-          <NavbarItem key={`${item.path}-${index}`}>
-            <Link
-              style={linkStyle} // Apply custom styles
-              className="hover:text-primary hover:underline"
-              to={item.path}
-            >
-              {item.label}
-            </Link>
-          </NavbarItem>
-        ))}
+      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            Features
+          </Link>
+        </NavbarItem>
+        <NavbarItem isActive>
+          <Link href="#" aria-current="page">
+            Customers
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            Integrations
+          </Link>
+        </NavbarItem>
       </NavbarContent>
-
+      <NavbarContent justify="end">
+        <NavbarItem className="hidden lg:flex">
+          <Link href="#">Login</Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Button as={Link} color="primary" href="#" variant="flat">
+            Sign Up
+          </Button>
+        </NavbarItem>
+      </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item.path}-${index}`}>
+          <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              className={`w-full ${
-                index === 2 ? "text-primary" : index === menuItems.length - 1 ? "text-danger" : "text-foreground"
-              } hover:text-white`}
-              to={item.path}
+              color={
+                index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
+              }
+              className="w-full"
+              href="#"
               size="lg"
             >
-              {item.label}
+              {item}
             </Link>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>
     </Navbar>
-
   );
 }
