@@ -6,16 +6,17 @@ import './App.css';
 import Footer from './Components/Footer';
 
 import Nav from './Components/Nav';
-import Header from './Components/Header';
+import Header from './Components/Header'
+
 import Home from './Components/Home'
 
 
 function App() {
   return (
    
-      <div className='container '>
+      <div className=' '>
         <Nav />
-        <Header />
+      <Header />
         <Home />
         
         <Footer />

@@ -15,11 +15,11 @@ function Gallery() {
                 gallery.map((item) => {
                     return (   
                       <div key={item.id} className="col-lg-3 col-md-4 col-sm-6 col-xs-12" >
-                      <div  class="hovereffect">
+                      <div  className="hovereffect">
 
-                      <img loading='' src={item.img} height="240" alt="gallery" />
+                      <img loading='' src={item.img} height="220"  alt="gallery" />
                     
-                      <div class="overlay">
+                      <div className="overlay">
                               <h2>{item.name}</h2>
                       <p>
                         <a href="#hh">Link</a>

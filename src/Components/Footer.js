@@ -8,7 +8,7 @@ import React from 'react';
 
 function Footer() {
   return (
-<div class="d-flex flex-column h-50">
+<div class=" d-flex flex-column h-50">
 
 
 <footer class="w-100 py-4 flex-shrink-0">

@@ -16,7 +16,10 @@
 
 }
 
-
+.image{
+	object-fit: contain;
+	object-position: center;
+}
 
 .h2conclusion{
 	padding-top: 5%;
@@ -171,11 +174,9 @@ hr{
 
   /*Footer*/
 /* ==========================================
-    FOR DEMO PURPOSE
+   
   ========================================== */
-  body {
-	background: #2a2e32;
-  }
+
   
  
   
