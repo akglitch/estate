@@ -4,7 +4,7 @@ import Herotwo from './Herotwo';
 import Herothree from './Herothree';
 import Team from './Team';
 import Testimonials from './Testimonials';
-import Gallery from './Gallery'; // Import Gallery component
+import Gallery from './Gallery'; 
 import Contact from './Contact';
 
   function Home() {
